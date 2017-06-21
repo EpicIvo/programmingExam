@@ -1,0 +1,79 @@
+html, body {
+    background-color: #70CF51;
+    font-family: 'Press Start 2P', cursive;
+    overflow:hidden;
+    margin:0px; padding:0px;
+    background-image: url('../images/grass.png');
+    background-repeat: repeat;
+}
+
+body * {
+    position: absolute;
+    display: block;
+    margin:0px; padding:0px;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+}
+
+gandalf {
+	width:103px; min-height:190px;
+}
+
+ork {
+	width:67px; min-height:146px;
+	background-image: url('../images/ork.png');
+    cursor:pointer;
+}
+
+border {
+    left:20px;top:100px;
+    width:143px;height:16px;
+    border:2px solid white;
+    border-radius:3px;
+}
+
+bar {
+    left:20px;top:100px;
+    width:143px;height:16px;
+    background-color:#92E3FF;
+}
+
+instructions {
+    width:407px;height:76px;
+    left:20px; bottom:20px;
+    background-image: url('../images/instructions.png');
+}
+
+foodbutton {
+    cursor:pointer;
+    width:143px;height:80px;
+    left:20px; top:4px;
+    background-image: url('../images/foodbutton.png');
+    opacity:0.4;
+}
+
+card {
+    width:269px; height:189px;
+    background-image: url('../images/card.png');
+    
+    animation: sendcard 3s ease-out 2 alternate;
+    transform:translate(0vw, 110vh) rotate(4deg);
+}
+
+.blinking {
+    animation: blinking 0.5s infinite alternate;
+}
+
+
+@keyframes blinking {
+    from { opacity:0.2; }
+    to { opacity:1; }
+}
+
+
+@keyframes sendcard {
+    0% { transform:translate(0vw, 110vh) rotate(4deg); }
+    80% { transform:translate(0vw, 40vh) rotate(-14deg); }
+    100% { transform:translate(0vw, 40vh) rotate(-14deg); }
+}
+
