@@ -5,8 +5,8 @@
         "target":"es5",
         "noImplicitAny": true,
         "noImplicitReturns": true,
-        "alwaysStrict":true,
-        "noUnusedLocals": true,
+        //"alwaysStrict":true,
+        //"noUnusedLocals": true,
         "out": "docs/js/main.js"
     },
     "exclude": [

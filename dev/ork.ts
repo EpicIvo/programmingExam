@@ -1,21 +1,13 @@
-class Ork {
+/// <reference path="./gameobject.ts" />
 
-    public xspeed:number = 0;
-    public yspeed:number = 0;
-    public speedmultiplier:number = 1;
-    public facing:number = 1;
-    public div: HTMLElement;
-    public x:number = 0;
-    public y:number = 0;
-    public width:number;
-    public height:number;
+class Ork extends Gameobject{
     
     private xTarget:number;
     private yTarget:number;
     private tag:string;
         
     constructor() {
-
+        super();
         this.tag = "ork";
         this.width = 67;
         this.height = 119;
