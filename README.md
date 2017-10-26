@@ -11,9 +11,9 @@ Gandalf wordt ook alweer een jaartje ouder. Hij is tegenwoordig vooral een beetj
 ![screenshot](docs/images/screenshot.png "Screenshot")
 
 
-## Live website
+## Proudly hosted at
 
-'http://ivovanderknaap.nl/typescript/docs/'
+-> http://ivovanderknaap.nl/typescript/docs/ 😎
 
 ## Opleverdocument
 
